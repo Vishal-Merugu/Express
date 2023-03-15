@@ -1,0 +1,39 @@
+form{
+    margin: 1rem 1rem 1rem 1rem;
+    border: 2px solid #aab3d1;
+    border-radius: 3px;
+    width: 20rem;
+    height: 9rem;
+    background-color:ghostwhite;
+    padding: 0 1rem;
+}
+
+.form-control label,
+.form-control input,
+button{
+    font: inherit;
+    display: block;
+    padding: 3px;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.form-control input{
+    border: 1px solid grey;
+    font: inherit;
+    border-radius: 3px;
+}
+
+button{
+    font: inherit;
+    font-size: 0.90rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 3px;
+    /* padding: 3px; */
+}
+main{
+padding-top: 1rem;
+display: flex;
+justify-content: center;
+}

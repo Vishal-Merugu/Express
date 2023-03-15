@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <header class = "main-header">
+        <nav class = "main-header__nav">
+            <ul class = "main-header__list">
+                <li class = "main-header__item"><a href="/shop">Shop</a></li>
+                <li class = "main-header__item"><a href="/admin/add-product">Add Products</a></li>
+                <li class = "main-header__item"><a class = "active" href="/contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="/contact-us" method="POST">
+            <div class="callimg">
+                <img src="https://images.squarespace-cdn.com/content/v1/5123a47de4b0b5151b7963bc/1477812680130-BSORME15CMI8DULQV7SE/BOOK+A+CALL.png" alt="">
+            </div>
+            <p>Book a call slot and our representative will call you within 1hr of selected time.</p>
+            <hr>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id = "name" name = "name">
+                <label for="email">Email</label>
+                <input type="email" id = "email" name = "email">
+            </div>
+            <button type = "submit">Get a Call</button>
+        </form>
+    </main>
+</body>
+</html>
