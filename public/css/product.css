@@ -1,49 +1,27 @@
-form{
-    margin: 1rem 1rem 1rem 1rem;
-    border: 2px solid #aab3d1;
-    border-radius: 3px;
+.product-form {
     width: 20rem;
-    height: 9rem;
-    background-color:ghostwhite;
-    padding: 0 1rem;
-}
-
-form{
-    margin: 1rem 1rem 1rem 1rem;
-    border: 2px solid #aab3d1;
-    border-radius: 3px;
-    width: 20rem;
-    height: 9rem;
-    background-color:ghostwhite;
-    padding: 0 1rem;
-}
-
-.form-control label,
-.form-control input,
-button{
-    font: inherit;
+    max-width: 90%;
+    margin: auto;
     display: block;
-    padding: 3px;
-    margin: 1rem 0;
-    width: 100%;
 }
 
-.form-control input{
-    border: 1px solid grey;
-    font: inherit;
-    border-radius: 3px;
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
 }
 
-button{
-    font: inherit;
-    font-size: 0.90rem;
-    cursor: pointer;
-    border: 1px solid grey;
-    border-radius: 3px;
-    /* padding: 3px; */
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
 }
-main{
-padding-top: 1rem;
-display: flex;
-justify-content: center;
+
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
 }
