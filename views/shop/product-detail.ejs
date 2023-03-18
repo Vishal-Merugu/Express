@@ -1,4 +1,5 @@
 <%- include('../includes/head.ejs') %>
+<link rel="stylesheet" href="/css/product.css">
     </head>
 
     <body>
@@ -6,14 +7,11 @@
         <main class = 'centered'>
             <h1><%= product.title %></h1>
             <hr>
-            <div>
-                <img src="<%= product.imageUrl %>" alt="<%= product.titl%>">
+            <div class = "centered">
+                <img src="<%= product.imageUrl %>" class = 'product-item card card__image ' alt="<%= product.titl%>">
             </div>
-            <h2><%= product.price %></h2>
+            <h2>$<%=+product.price %></h2>
             <p><%= product.description %></p>
-            <form action="/cart">
-                <button class ='btn'type = "submit" >Add to Cart</button>
-            </form>
-            
+            <%- include ('../includes/add-to-cart.ejs') %>            
         </main>
         <%- include('../includes/end.ejs') %>

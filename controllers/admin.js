@@ -11,6 +11,7 @@ exports.getAddProduct = (req, res, next) => {
 };
 
 exports.postAddProduct = (req, res, next) => {
+  const prodId = Math.random().toString()
   const title = req.body.title;
   const imageUrl = req.body.imageUrl;
   const price = req.body.price;
